@@ -7,7 +7,9 @@
 - Operaciones bancarias.
 
 ## storageService.js
-- Read and write data.
+- Lee datos del localStorage.
+- Almacena datos en el localStorage.
+- Función para eliminar.
 
 ## utils.js
 - Helpers
@@ -16,3 +18,7 @@
 - Apariencia visual
 
 ## index.html
+
+## Self notes: 
+- Users: {id, nombre, email, password, activo}
+- Cuenta: {id, numeroCuenta, saldo, usuarioID, activa}
