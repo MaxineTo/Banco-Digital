@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Mi cuenta | Banco Digital</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body data-page="cuenta">
+    <header>
+      <div>
+        <h1>Banco Digital</h1>
+        <p>Sistema de Gestión Bancaria</p>
+      </div>
+      <button type="button" id="logoutBtn" class="secondary">
+        Cerrar sesión
+      </button>
+    </header>
+    <nav>
+      <a href="dashboard.html" class="">Dashboard</a
+      ><a href="cuenta.html" class="active">Mi cuenta</a
+      ><a href="movimientos.html" class="">Movimientos</a
+      ><a href="transferencia.html" class="">Transferencias</a>
+    </nav>
+    <main id="app"></main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>

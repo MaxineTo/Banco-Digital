@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Banco Digital | Acceso</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="auth-page" data-page="login">
+    <header class="auth-header">
+      <h1>Banco Digital</h1>
+      <p>Sistema de Gestión Bancaria</p>
+    </header>
+    <main>
+      <section class="card">
+        <h2>Iniciar sesión</h2>
+        <form data-action="login" novalidate>
+          <label
+            >Correo electrónico <input name="email" type="email" required
+          /></label>
+          <label
+            >Contraseña<input name="password" type="password" required /></label
+          ><button>Iniciar sesión</button>
+        </form>
+      </section>
+      <section class="card">
+        <h2>Crear cuenta</h2>
+        <form data-action="register" novalidate>
+          <label>Nombre completo<input name="nombre" required /></label
+          ><label
+            >Correo electrónico<input
+              name="email"
+              type="email"
+              required /></label
+          ><label>Teléfono<input name="telefono" type="tel" required /></label
+          ><label
+            >Contraseña<input
+              name="password"
+              type="password"
+              minlength="6"
+              required /></label
+          ><button>Registrarme</button>
+        </form>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>

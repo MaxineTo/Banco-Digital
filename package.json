@@ -1,0 +1,13 @@
+{
+"name": "proyecto-modulo-4",
+"version": "0.11.0",
+"description": "Proyecto integrador Modulo 4 - Sistema de Gestion Bancaria",
+"main": "js/app.js",
+"type": "module",
+"author": "Madelinne R. Sereno",
+"license": "ISC",
+"devDependencies": {
+"jest": "^30.4.2",
+"jest-environment-jsdom": "^30.4.1"
+}
+}
